@@ -1,0 +1,3 @@
+# Default channel | What players join if they do not have one #
+defaultChannel: 'global'
+defaultChatFormat: '{PREFIX} {PLAYER} {MESSAGE}'

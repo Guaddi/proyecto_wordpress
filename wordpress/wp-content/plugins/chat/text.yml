@@ -1,0 +1,20 @@
+# Channel Messages #
+channelJoin: '&eYou have joined &c{OBJECT1}&e!'
+channelRestricted: '&cThis channel requires the Permission [&e{OBJECT1}&c]'
+channelSpeakRestricted: '&cThis channel requires the Speaking Permission [&e{OBJECT1}&c]'
+unknownCommand: '&cUnknown command! Use /LC Help for command list.'
+inGameCommandError: '&cYou need to be in game to use this command!'
+commandRestricted: '&cThis command requires the Permission [&e{OBJECT1}&c]'
+commandUsage: '&cUsage: {OBJECT1}'
+channelNotFound: '&cNo channel with that name exists!'
+channelAlreadyCreated: '&cA channel with that name has already been created!'
+channelPasswordRestricted: '&cThis channel requires a password!'
+localUnknownTarget: '&cOnly the whispers heard. &eChannel distance: {OBJECT1}'
+restrictedWorld: '&cCurrent channel is restricted from this world!'
+
+# Other MEssages #
+booleanError: '&cThis commands argument needs a boolean of true or false!'
+integerError: '&cThis commands argument needs a integer!'
+colorError: '&cThis commands argument needs a color!'
+channelHasBeenUpdated: '&eThe channels {OBJECT1} has been updated!'
+helpMenu: '&eWhile the plugin is being developed the commands will be: http://goo.gl/szPGHc'

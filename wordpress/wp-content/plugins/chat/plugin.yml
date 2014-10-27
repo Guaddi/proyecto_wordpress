@@ -1,0 +1,25 @@
+name: LittleChat
+main: me.avery246813579.littlechat.LittleChat
+version: 1.0.0
+commands:
+  ch:
+    description: Changes players channel.
+  channel:
+    description: Changes players channel.
+  lc:
+    description: ASDASD.
+  littlechat:
+    description: THATS GOOD.
+permissions:
+  littlehelper.channel.create:
+    description: Simple permission.
+    default: op
+  littlehelper.channel.edit:
+    description: Simple permission.
+    default: op
+  littlehelper.chat.color:
+    description: Simple permission.
+    default: op
+  littlehelper.chat.magic:
+    description: Simple permission.
+    default: op

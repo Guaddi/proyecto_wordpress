@@ -1,0 +1,55 @@
+# -=- -=-=- -=-=-=- -=-=- -=- #
+# -=-   Global Options    -=- #
+# -=- -=-=- -=-=-=- -=-=- -=- #
+# Name: Name of channel.      #
+# -=- -=-=- -=-=-=- -=-=- -=- #
+# Prefix: Prefix for channel. #
+# -=- -=-=- -=-=-=- -=-=- -=- #
+# Password: Channel for the   #
+# channel.                    #
+# -=- -=-=- -=-=-=- -=-=- -=- #
+# MessageFormat: Way messages #
+# are sent.                   #
+# -=- -=-=- -=-=-=- -=-=- -=- #
+# Worlds: Worlds you can use  #
+# the channel in. * Note * if #
+# the channel is global you   #
+# can hear the chat in all    #
+# worlds.                     #
+# -=- -=-=- -=-=-=- -=-=- -=- #
+# Global: If you can hear the #
+# channel chat in all worlds  #
+# -=- -=-=- -=-=-=- -=-=- -=- #
+# Local: If you can only hear #
+# chat in x amount of blocks  #
+# -=- -=-=- -=-=-=- -=-=- -=- #
+# LocalDistance: Distance of  #
+# local chat                  #
+# -=- -=-=- -=-=-=- -=-=- -=- #
+
+# DON'T CHANGE NAME FROM THE NAME #
+
+channels:
+  global:
+    name: 'Global'
+    prefix: '&c[&9G&c]'
+    password: ''
+    messageFormat: '{PREFIX} {PLAYER} {MESSAGE}'
+    messageColor: 'YELLOW'
+    worlds: 
+    - world
+    global: true
+    local: false
+    localDistance: 250
+  test:
+    name: 'Test'
+    prefix: '&c[&9T&c]'
+    password: ''
+    messageFormat: '{PREFIX} {PLAYER} {MESSAGE}'
+    messageColor: 'BLACK'
+    worlds: 
+    - world
+    global: true
+    local: false
+    LocalDistance: 250    
+ 
